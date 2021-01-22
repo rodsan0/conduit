@@ -1,4 +1,6 @@
-"""Generate dyadic graphs.
+#!/usr/bin/python3
+"""
+Generate dyadic graphs.
 
 This script makes use of NetworkX to generate
 dyadic graphs (pairs of nodes are connected).
@@ -9,7 +11,6 @@ of the graph created.
 """
 
 import networkx as nx
-import matplotlib.pyplot as plt
 from keyname import keyname as kn
 
 dims = [3, 4, 7, 10]

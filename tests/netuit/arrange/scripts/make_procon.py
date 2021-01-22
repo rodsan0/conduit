@@ -1,4 +1,6 @@
-"""Generate procon graphs.
+#!/usr/bin/python3
+"""
+Generate procon graphs.
 
 This script makes use of NetworkX to generate
 procon graphs (nodes are paired up; one outputs
@@ -10,7 +12,6 @@ of the graph created.
 """
 
 import networkx as nx
-import matplotlib.pyplot as plt
 from keyname import keyname as kn
 
 dims = [3, 10, 12, 15, 27, 56, 99]
